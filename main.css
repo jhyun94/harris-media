@@ -53,3 +53,20 @@ input[type="text"], input[type="email"] {
   margin-top: 10px;
   border-color: #A80000;
 }
+
+/* footer 
+=====*/
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* media queries
+============ */
+
+@media screen and (max-width: 500px){
+  .description {
+    display: none;
+  }
+}
