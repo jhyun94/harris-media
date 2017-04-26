@@ -1,0 +1,72 @@
+/* general 
+========= */
+html,body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #1A1A1A;
+}
+
+p {
+  font-size: 18px;
+}
+
+.col-md-6 {
+  margin-top: 30px;
+}
+/* description/instructions 
+================ */
+.description {
+  padding: 0 100px;
+}
+
+.description h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.heading {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #fff;
+}
+
+
+/* forms
+================*/
+form {
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+label, input[type="text"], input[type="email"] {
+  width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+  margin-bottom: 20px;
+}
+
+.form-submit {
+  width: 100%;
+  background-color: #A80000;
+  padding: 10px 0;
+  margin-top: 10px;
+  border-color: #A80000;
+}
+
+/* footer 
+=====*/
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* media queries
+============ */
+
+@media screen and (max-width: 500px){
+  .description {
+    display: none;
+  }
+}
