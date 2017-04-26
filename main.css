@@ -4,7 +4,6 @@ html,body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background-color: #1A1A1A;
 }
 
 p {
@@ -68,5 +67,20 @@ input[type="text"], input[type="email"] {
 @media screen and (max-width: 500px){
   .description {
     display: none;
+  },
+  body {
+
+  }
+}
+
+@media screen and (min-width: 300px){
+  body {
+    background: url("images/background-img-mobile.png") no-repeat center center;
+  }
+}
+
+@media screen and (min-width: 990px){
+  body {
+    background: url("images/background-img-desktop.png") no-repeat center center;
   }
 }
