@@ -1,0 +1,23 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #1A1A1A;
+}
+
+.description {
+  padding: 0 100px;
+}
+
+.description p {
+  font-size: 18px;
+}
+
+.description h1 {
+  text-align: center;
+}
+
+.heading {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #fff;
+}
