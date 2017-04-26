@@ -29,6 +29,9 @@ p {
   border-bottom: 2px solid #fff;
 }
 
+.logo {
+  margin: 0 auto;
+}
 
 /* forms
 ================*/
