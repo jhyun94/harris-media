@@ -9,7 +9,7 @@ html,body {
 
 @font-face {
   font-family: Helvetica;
-  src: url(helveticaneueblack/HelveticaBlklt.tff) format("truetype");
+  src: url('helveticaneueblack/HelveticaBlkIt.ttf') format("truetype");
 }
 
 p {
@@ -41,6 +41,10 @@ body {
 
 .clearfix {
   clear: both;
+}
+
+.lastP {
+  display: none;
 }
 
 /* forms
@@ -110,6 +114,11 @@ input[type="text"], input[type="email"] {
 
   form {
     margin-top: 10px;
+  }
+
+  .lastP {
+    display: block;
+    padding-top: 10px;
   }
 }
 
