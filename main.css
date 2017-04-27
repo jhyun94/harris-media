@@ -4,23 +4,28 @@ html,body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background-color: #1A1A1A;
+  font-family: Helvetica, "sans-serif";
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url('helveticaneueblack/HelveticaBlkIt.ttf') format("truetype");
 }
 
 p {
   font-size: 18px;
 }
 
-.col-md-6 {
-  margin-top: 30px;
-}
-/* description/instructions 
+body {
+    background: url("images/background-img-desktop.png") no-repeat center center;
+  }
+/* information/instructions 
 ================ */
-.description {
+.information {
   padding: 0 100px;
 }
 
-.description h1 {
+.information h1 {
   text-align: center;
   margin-top: 0;
 }
@@ -30,12 +35,24 @@ p {
   border-bottom: 2px solid #fff;
 }
 
+.logo {
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.lastP {
+  display: none;
+}
 
 /* forms
 ================*/
 form {
   border: 1px solid #fff;
   padding: 20px;
+  margin-top: 100px;
 }
 
 label, input[type="text"], input[type="email"] {
@@ -43,7 +60,9 @@ label, input[type="text"], input[type="email"] {
 }
 
 input[type="text"], input[type="email"] {
+  height: 26px;
   margin-bottom: 20px;
+  background: transparent;
 }
 
 .form-submit {
@@ -65,8 +84,43 @@ input[type="text"], input[type="email"] {
 /* media queries
 ============ */
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 990px){
   .description {
     display: none;
   }
+
+  body {
+    background: url("images/background-img-mobile.png") no-repeat center center;
+  }
+
+  .logo {
+    width: 30%;
+    float: left;
+  }
+
+  .heading {
+    position: relative;
+    top: 46px;
+    right: -40px;
+    border-bottom: none;
+  }
+
+  .information {
+    padding: 0 20px;
+  }
+
+  .information p {
+    font-size: 20px;
+  }
+
+  form {
+    margin-top: 10px;
+  }
+
+  .lastP {
+    display: block;
+    padding-top: 10px;
+  }
 }
+
+
