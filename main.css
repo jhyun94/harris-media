@@ -94,13 +94,14 @@ input[type="text"], input[type="email"] {
   }
 
   .logo {
-    width: 50%;
+    width: 30%;
     float: left;
   }
 
   .heading {
-    width: 50%;
-    float: left;
+    position: relative;
+    top: 46px;
+    right: -40px;
     border-bottom: none;
   }
 
